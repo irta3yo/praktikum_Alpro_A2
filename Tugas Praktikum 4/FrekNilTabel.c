@@ -26,7 +26,7 @@ int main() {
             printf("Masukkan array bilangan indeks-%d : ", i);
             scanf("%d", &A);
             T[i] = A;
-        }while(A < 0);
+        }while(A < 1);
     }
 
     k = 0;

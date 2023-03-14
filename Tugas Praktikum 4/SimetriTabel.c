@@ -26,7 +26,7 @@ int main() {
             printf("Masukkan array T1 indeks-%d : ", i);
             scanf("%d", &A);
             T1[i] = A;
-        }while(A < 0);
+        }while(A < 1);
     }
 
     A = 0;
@@ -39,7 +39,7 @@ int main() {
             printf("Masukkan array T2 indeks-%d : ", i);
             scanf("%d", &A);
             T2[i] = A;
-        }while(A < 0);
+        }while(A < 1);
     }
 
     if(jumBil1 != jumBil2){
